@@ -1,0 +1,32 @@
+table {
+    color: #333333;
+    border-collapse: collapse;
+    text-align: center;
+}
+thead td{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #90b4d6;
+    letter-spacing: 2px;
+    padding: 5px 30px 5px 10px;
+    text-transform: uppercase;
+}
+tbody td {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    width: 150px;
+}
+th {
+    padding: 5px 30px 5px 10px;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+}
+tbody tr:nth-child(odd){
+    background-color: #84b3ad;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(104,154,216);
+}
+
