@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    src: url("http://fonts.googleapis.com/css?family=Lato:100,300,400");
+}
+body {
+    font-family: "Lato", sans-serif;
+
+}
+nav {
+    padding: 10px;
+    background-color: rgb(41,63,80);
+}
+.navP {
+    color: rgb(84,115,111);
+    text-align: right;
+    text-transform: uppercase;
+    background-color: rgb(41,63,80);
+}
+header {
+    text-align: center;
+    background-color: rgb(41,63,80);
+    padding-bottom: 50px;
+}
+h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(148,159,168);
+    padding: 30px;
+    font-weight: 300;
+}
+li {
+    display: inline;
+}
+a{
+    text-transform: uppercase;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(84,115,111);
+}
+h2 {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(82,113,110);
+}
+.headerP {
+    color: rgb(182,191,190);
+    padding: 20px;
+}
+button {
+    text-transform: uppercase;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: rgb(41,63,80);
+    font-weight: 300;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #FFFFFF;
+    color: rgb(41,63,80);
+    cursor: hand;
+}
+article {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    color: rgb(84,115,111);
+}
+.articleP {
+    font-size: 12px;
+    float: left;
+}
+img {
+    width: 190px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0;
+}
+section {
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+p {
+    padding-top: 20px;
+    text-align: left;
+
+}
+.footerNav ul{
+    text-align: right;
+}
+.footerNav ul li a {
+    color: #FFFFFF;
+}
+.footerNav {
+    vertical-align: bottom;
+}
+div {
+    float: left;
+    color: #FFFFFF;
+}
+
+
