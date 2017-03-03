@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+table {
+    border-collapse: collapse;
+}
+table tr th {
+    padding: 5px;
+    border: 1px solid #c6c7cc;
+}
+table tr td {
+    padding: 5px;
+    border: 1px solid #c6c7cc;
+}
