@@ -1,16 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
 body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     background-image: url("images/dark-wood.jpg");
-
 }
 
 header {
@@ -23,12 +22,22 @@ header {
 nav ul{
     list-style: none;
     background-image: url("images/header-page.jpg");
-    margin-top: 2px;
-    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-bottom: 8px;
 }
 
 nav ul li {
+    padding: 4px 15px 4px 15px;
     display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover, nav ul li:active {
+    background-color: black;
 }
 
 header, nav, main {
@@ -43,7 +52,7 @@ main {
 
 .courses {
     width: 60%;
-
+    border-right: 3px solid lightgrey;
 }
 
 aside {
@@ -98,8 +107,28 @@ article:after {
 
 
 footer{
+    text-align: center;
     padding: 10px;
     color: #333333;
     background-color: rgb(174,172,168);
+}
 
+figure {
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.popular-recipes li{
+    margin:5px auto 10px 10px;
+    border-bottom: 5px solid lightgrey;
+}
+
+.popular-recipes li a {
+    text-decoration: none;
+    color: rgb(219,92,126);
+    font-size: 25px;
+}
+
+.popular-recipes li:hover {
+    background-color: lightgrey;
 }
